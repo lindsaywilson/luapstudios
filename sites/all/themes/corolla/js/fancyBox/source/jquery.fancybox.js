@@ -1134,6 +1134,16 @@
 				case 'image':
 					content = current.tpl.image.replace('{href}', href).replace('{txt}', '<div class="artwork-info-pop"><a class="artwork-close" onclick="jQuery(\'.artwork-info-pop\').fadeToggle();" href="#">X</a>'+txt+'</div>');
 					$('.fancybox-overlay-bg').attr('style', 'background:url('+href+') 50% 50% no-repeat; background-size:100% auto');
+					//var backimage = href;
+					//$.backstretch(backimage);
+					//var b = $('#backstretch:first').clone();
+					//$('.fancybox-overlay').prepend(b);
+					//$('.fancybox-overlay #backstretch img').attr('src',href);
+					//$('.fancybox-overlay #backstretch').css('z-index','2');
+					//$('.fancybox-close').click( function(){
+					//	b = $('#backstretch');
+					//	$('#page-wrapper').after(b);
+					//})
 					//$('.fancybox-overlay').prepend('<img src="' + href +'" class="fancybox-overlay-bg">');
 				break;
 
